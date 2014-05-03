@@ -1,0 +1,35 @@
+"[#<Proc:0x00000000989450@/home/fastjack/.rvm/gems/ruby-2.1.1@cap3/gems/capistrano-3.2.1/lib/capistrano/tasks/git.rake:15>]"
+I'm in custom git:wrapper
+"[#<Proc:0x000000006f3358@/home/fastjack/sources/cap3_test/lib/capistrano/tasks/git.rake:9>, #<Proc:0x000000018e7078@/home/fastjack/.rvm/gems/ruby-2.1.1@cap3/gems/capistrano-3.2.1/lib/capistrano/tasks/git.rake:15>]"
+
+
+
+
+
+ [34mINFO[0m [[32m7b63851a[0m] Running [33m[1m/usr/bin/env mkdir -p /tmp/my_app_name/[0m[0m on [34mlocalhost[0m
+[30mDEBUG[0m [[32m7b63851a[0m] Command: [34m/usr/bin/env mkdir -p /tmp/my_app_name/[0m
+ [34mINFO[0m [[32m7b63851a[0m] Finished in 0.276 seconds with exit status 0 ([1m[32msuccessful[0m[0m).
+[30mDEBUG[0m Uploading /tmp/my_app_name/git-ssh.sh 0.0%
+ [34mINFO[0m Uploading /tmp/my_app_name/git-ssh.sh 100.0%
+ [34mINFO[0m [[32me4f1d0cf[0m] Running [33m[1m/usr/bin/env chmod +x /tmp/my_app_name/git-ssh.sh[0m[0m on [34mlocalhost[0m
+[30mDEBUG[0m [[32me4f1d0cf[0m] Command: [34m/usr/bin/env chmod +x /tmp/my_app_name/git-ssh.sh[0m
+ [34mINFO[0m [[32me4f1d0cf[0m] Finished in 0.011 seconds with exit status 0 ([1m[32msuccessful[0m[0m).
+[30mDEBUG[0m [[32mb3eb3d3c[0m] Running [33m[1m/usr/bin/env git ls-remote -h https://github.com/capistrano/capistrano.git[0m[0m on [34mlocalhost[0m
+[30mDEBUG[0m [[32mb3eb3d3c[0m] Command: [34m( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/my_app_name/git-ssh.sh /usr/bin/env git ls-remote -h https://github.com/capistrano/capistrano.git )[0m
+[30mDEBUG[0m [[32mb3eb3d3c[0m] [32m	44d07c4b8299b5b83d5ac76f31ef383d81fbcf76	refs/heads/feature/support-archive-and-submodules
+[0m[30mDEBUG[0m [[32mb3eb3d3c[0m] [32m	7d7cf634a98f1159efa1d2fdcd18f868b6264638	refs/heads/fix/cc-license
+[0m[30mDEBUG[0m [[32mb3eb3d3c[0m] [32m	2b552359feea5df0d22ef25d16e5ab8843c9a4f8	refs/heads/fix/default-pty
+[0m[30mDEBUG[0m [[32mb3eb3d3c[0m] [32m	3e143e5be02b70946ec699ebd1924154f87252cb	refs/heads/legacy-v2
+[0m[30mDEBUG[0m [[32mb3eb3d3c[0m] [32m	39e88957610394629af68299e10f6779af25ac79	refs/heads/master
+[0m[30mDEBUG[0m [[32mb3eb3d3c[0m] Finished in 1.759 seconds with exit status 0 ([1m[32msuccessful[0m[0m).
+[30mDEBUG[0m [[32md077f232[0m] Running [33m[1m/usr/bin/env git ls-remote -h https://github.com/capistrano/capistrano.git[0m[0m on [34mlocalhost[0m
+[30mDEBUG[0m [[32md077f232[0m] Command: [34m( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/my_app_name/git-ssh.sh /usr/bin/env git ls-remote -h https://github.com/capistrano/capistrano.git )[0m
+[30mDEBUG[0m [[32md077f232[0m] [32m	44d07c4b8299b5b83d5ac76f31ef383d81fbcf76	refs/heads/feature/support-archive-and-submodules
+[0m[30mDEBUG[0m [[32md077f232[0m] [32m	7d7cf634a98f1159efa1d2fdcd18f868b6264638	refs/heads/fix/cc-license
+[0m[30mDEBUG[0m [[32md077f232[0m] [32m	2b552359feea5df0d22ef25d16e5ab8843c9a4f8	refs/heads/fix/default-pty
+[0m[30mDEBUG[0m [[32md077f232[0m] [32m	3e143e5be02b70946ec699ebd1924154f87252cb	refs/heads/legacy-v2
+[0m[30mDEBUG[0m [[32md077f232[0m] [32m	39e88957610394629af68299e10f6779af25ac79	refs/heads/master
+[0m[30mDEBUG[0m [[32md077f232[0m] Finished in 1.340 seconds with exit status 0 ([1m[32msuccessful[0m[0m).
+ [34mINFO[0m [[32m6eeab6f4[0m] Running [33m[1m/usr/bin/env mkdir -pv ~/my_app/shared ~/my_app/releases[0m[0m on [34mlocalhost[0m
+[30mDEBUG[0m [[32m6eeab6f4[0m] Command: [34m/usr/bin/env mkdir -pv ~/my_app/shared ~/my_app/releases[0m
+ [34mINFO[0m [[32m6eeab6f4[0m] Finished in 0.265 seconds with exit status 0 ([1m[32msuccessful[0m[0m).
