@@ -1,17 +1,10 @@
-require 'capistrano/git'
-require 'pp'
-
-pp "Bevor clear"
-pp Rake::Task['git:wrapper'].actions.inspect
-
-
-Rake::Task['git:wrapper'].clear_actions
-
-pp "After clear"
-pp Rake::Task['git:wrapper'].actions.inspect
-
-Rake::Task['git:wrapper'].enhance do
-  puts "Inside Task"
-  pp Rake::Task['git:wrapper'].actions.inspect
-  puts "\n"*5
+namespace :scm do
+  task :hook do
+     load File.expand_path("git.rb", __dir__) 
+  end 
 end
+
+Capistrano::DSL.stages.each do |stage|
+  after stage, 'scm:hook'
+end
+
